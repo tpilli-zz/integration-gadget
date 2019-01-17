@@ -1,0 +1,29 @@
+{
+
+  "type": "record",
+  "name": "App_V4",
+  "namespace": "com.github.ptn006.v4",
+  "doc": "Avro schema registry for SVC_V4",
+  "fields": [
+    {
+      "name": "app_id",
+      "type": "string",
+      "doc": "3 digit application id"
+    },
+    {
+      "name": "dev_stage",
+      "type": "string",
+      "doc": "development stage"
+    },
+    {
+      "name": "request_id",
+      "type": "int",
+      "doc": "unique id"
+    },
+    {
+      "name": "total_scans",
+      "type": "int",
+      "doc": "total number of scans"
+    }
+  ]
+}

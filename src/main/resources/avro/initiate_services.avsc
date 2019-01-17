@@ -1,0 +1,31 @@
+{
+
+  "type": "record",
+  "name": "Initiate_Services",
+  "namespace": "com.github.ptn006",
+  "doc": "Avro schema registry for Initiate_Services",
+  "fields": [
+    {
+      "name": "app_id",
+      "type": "string",
+      "doc": "3 digit application id"
+    },
+    {
+      "name": "dev_stage",
+      "type": "string",
+      "doc": "development stage"
+    },
+    {
+      "name": "request_id",
+      "type": "string",
+      "default":"",
+      "doc": "unique id"
+    },
+    {
+      "name": "total_scans",
+      "type": "string",
+      "default":"",
+      "doc": "total number of scans"
+    }
+  ]
+}

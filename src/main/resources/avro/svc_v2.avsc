@@ -1,0 +1,40 @@
+{
+
+  "type": "record",
+  "name": "SVC_V2",
+  "namespace": "com.github.ptn006",
+  "doc": "This is V2 Avro schema registry for mySVC",
+  "fields": [
+    {
+      "name": "app_id",
+      "type": "string",
+      "doc": "3 digit application id"
+    },
+    {
+      "name": "app_name",
+      "type": "string",
+      "doc": "application name"
+    },
+    {
+      "name": "dev_stage",
+      "type": "string",
+      "doc": "development stage"
+    },
+    {
+      "name": "scan_name",
+      "type": "string",
+      "doc": "scan details"
+    },
+    {
+      "name": "seq_num",
+      "type": "int",
+      "doc": "unique number"
+    },
+    {
+      "name": "result_flg",
+      "type": "string",
+      "doc": "Y indicates results of scan available",
+      "default": "Y"
+    }
+  ]
+}
