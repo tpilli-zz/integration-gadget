@@ -1,2 +1,3 @@
 # IG - Integration Gadget
-Integrates security vulnerabilities data from multiple sources in to a single dashboard.
+IG is a single dashboard for vulnerability management. 
+Vulnerabilities data from multiple sources merged and displayed on a single dashboard.
